@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace spec\Codin\Dot;
 
-use Codin\DotException;
+use Codin\Dot\DotException;
 use PhpSpec\ObjectBehavior;
 
 class DotSpec extends ObjectBehavior
