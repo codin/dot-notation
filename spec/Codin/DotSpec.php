@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace spec\Codin;
+namespace spec\Codin\Dot;
 
 use Codin\DotException;
 use PhpSpec\ObjectBehavior;
