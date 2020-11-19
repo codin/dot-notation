@@ -13,13 +13,14 @@
             "role": "Developer"
         }
     ],
+
     "require": {
         "php": ">=7.3"
     },
     "require-dev": {
+        "friendsofphp/php-cs-fixer": "@stable",
         "phpspec/phpspec": "@stable",
-        "phpstan/phpstan": "@stable",
-        "friendsofphp/php-cs-fixer": "@stable"
+        "phpstan/phpstan": "@stable"
     },
     "autoload": {
         "psr-4": {
