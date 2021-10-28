@@ -33,7 +33,7 @@ class Dot
 
         foreach (explode('.', $key) as $index) {
             if (!is_array($item) || !array_key_exists($index, $item)) {
-                return null;
+                return $default;
             }
             $item =& $item[$index];
         }
