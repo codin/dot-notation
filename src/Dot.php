@@ -6,10 +6,7 @@ namespace Codin\Dot;
 
 class Dot
 {
-    /**
-     * @var array
-     */
-    protected $items;
+    protected array $items;
 
     public function __construct(array $items = [])
     {
@@ -44,16 +41,11 @@ class Dot
     /**
      * Store a key-value in items
      *
-     * @param null|string $key
+     * @param string $key
      * @param mixed $value
      */
-    public function set(?string $key, $value): void
+    public function set(string $key, $value): void
     {
-        if (null === $key) {
-            $this->items = $value;
-            return;
-        }
-
         $item =& $this->items;
 
         foreach (explode('.', $key) as $index) {

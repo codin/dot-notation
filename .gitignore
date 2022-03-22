@@ -1,6 +1,7 @@
 vendor
 bin
 coverage
+tmp
 *.log
 *.phar
 *.cache

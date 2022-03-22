@@ -27,7 +27,7 @@ class DotSpec extends ObjectBehavior
     {
         $this->get(null)->shouldReturn([]);
 
-        $this->set(null, $this->testData);
+        $this->set('foo', $this->testData['foo']);
         $this->get(null)->shouldReturn($this->testData);
 
         $this->set('foo.bar', 'qux');
