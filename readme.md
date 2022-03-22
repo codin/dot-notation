@@ -1,8 +1,8 @@
 # Dot Notation Array Access
 
-![version](https://img.shields.io/github/v/tag/codin/dot)
-![workflow](https://img.shields.io/github/workflow/status/codin/dot/Composer)
-![license](https://img.shields.io/github/license/codin/dot)
+![version](https://img.shields.io/github/v/tag/codin/dot-notation)
+![workflow](https://img.shields.io/github/workflow/status/codin/dot-notation/Composer)
+![license](https://img.shields.io/github/license/codin/dot-notation)
 
 Fetching array items by dot notation
 
